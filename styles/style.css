@@ -66,7 +66,7 @@
   align-items: center;
   padding-top: 92px;
   padding-bottom: 90px;
-  grid-template-columns: 387px auto 253px;
+  grid-template-columns: 1fr min-content 1fr;
 }
 
 .header__links-list {
@@ -87,11 +87,10 @@
   display: block;
   width: 148px;
   padding: 0 6px;
-  margin-left: 209px;
 }
 
 .header__address {
-  margin-left: 16px;
+  justify-self: end;
 }
 
 /* cover */
